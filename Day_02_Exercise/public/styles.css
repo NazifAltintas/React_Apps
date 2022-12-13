@@ -1,0 +1,24 @@
+button{
+    color: red;
+    background-color: yellow;
+  }
+  .city{
+    border: 2px solid black;
+    outline: 2px solid red;
+    width: 30%;
+  }
+  img{
+    width: 100px;
+    -o-border-radius: 15% ;
+    -webkit-border-radius: 15% ;
+    -moz-border-radius: 15% ;
+    -ms-border-radius: 15% ;
+    border-radius: 15% ;
+  }
+  
+  table, th, td{
+    border: 1px solid black;
+  }
+  th {
+    color: red;
+  }
