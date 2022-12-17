@@ -1,0 +1,28 @@
+.img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.btn {
+  background-color: yellow;
+  color: red;
+}
+
+.favCity {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+}
+
+table {
+  border: 1px solid;
+}
+
+table th {
+  border: 1px solid black;
+  color: red;
+}
+
+table td {
+  border: 1px solid;
+}
