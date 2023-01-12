@@ -13,9 +13,9 @@ function DigitalClock() {
   setInterval(updateTime, 1000);
   return (
     <>
-      <h1 style={{ fontSize: "60px", width: "500px" }}>Digital Clock</h1>
+      <h1 style={{ fontSize: "40px", width: "500px" }}>Digital Clock</h1>
       <h1 className="current-time">{latestTime}</h1>
-      <button onClick={updateTime} className="get-time-button">
+      <button className="get-time-button" onClick={updateTime}>
         Get Time
       </button>
     </>
