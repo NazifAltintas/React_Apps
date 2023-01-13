@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Destructing from "./Destructuring";
+import Destructuring from "./Destructuring";
 import Car from "./Car";
 
 ReactDOM.render(
   <div>
-    {/* <Destructing /> */}
+    <Destructuring />
 
     <Car />
   </div>,

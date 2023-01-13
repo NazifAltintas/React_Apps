@@ -69,8 +69,8 @@ console.log(animalFunction(cat)); //['cat', ƒ]
 
 // Destructuring function
 const [animal, makeSound] = animalFunction(cat);
-console.log(animal);
-cat;
+console.log(animal); //cat
+
 makeSound(); //meow
 function Destructing() {
   return (
